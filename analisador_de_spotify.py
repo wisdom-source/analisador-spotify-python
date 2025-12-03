@@ -7,7 +7,7 @@ def carregar_dados():
     Tenta carregar o arquivo CSV. Se houver erro, trata a exceção.
     """
     try:
-        df = pd.read_csv('spotify_analysis_dataset.csv')
+        df = pd.read_csv('analisador-spotify-python-main/spotify_analysis_dataset.csv')
         return df
     except FileNotFoundError:
         # A forma mais limpa de tratar o erro sem o "as e"
@@ -90,3 +90,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
