@@ -1,0 +1,2 @@
+pandas
+matplotlib  # ou plotly.express, dependendo da sua escolha
